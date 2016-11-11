@@ -13,10 +13,10 @@ app.get('/chad', function(request, response){
     response.send('chad.html');
 });
 app.get('/colombia', function(request, response){
-    response.send('colombia.html');
+    response.send('Models/Colombia.html');
 });
 app.get('/indonesia', function(request, response){
-    response.send('indonesia.html');
+    response.send('Models/Indonesia.html');
 });
 app.get('/nigeria', function(request, response){
     response.send('nigeria.html');
@@ -28,6 +28,6 @@ app.get('/southafrica', function(request, response){
     response.send('southafrica.html');
 });
 app.get('/srilanka', function(request, response){
-    response.send('srilanka.html');
+    response.send('Models/Sri Lanka.html');
 });
 app.listen(process.env.PORT || 4000);
