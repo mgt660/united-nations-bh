@@ -14,3 +14,9 @@ based on your repo. Then you'll get the
 application running and alter it.
 
 Good luck!
+
+## Getting started
+
+If you're running on cloud9, you'll want to install the dependencies
+first with `npm install`. Then you can run the code like `nodemon ./server.js`.
+
