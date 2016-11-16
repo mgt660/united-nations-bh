@@ -8,39 +8,43 @@ var bodyParser = require('body-parser');
 app.use(express.static('static'))
 
 app.get('/', function(request, response){
-    response.sendfile('index.html');
+    response.sendfile('indexerdem.html');
 });
+// Next few lines are obsolete
 app.get('/algeria', function(request, response){
-    response.send('algeria.html');
+    response.send('Models/algeria.html');
 });
 app.get('/chad', function(request, response){
     response.send('chad.html');
 });
+//Next few lines define where inputs after the initial slash in the address line take you. 
+// They're also used for search words input in the search form
 app.get('/colombia', function(request, response){
-    response.send('Models/Colombia.html');
+    response.sendfile('static/Models/Colombia.html');
 });
 app.get('/indonesia', function(request, response){
-    response.send('Models/Indonesia.html');
+    response.sendfile('static/Models/Indonesia.html');
 });
 app.get('/nigeria', function(request, response){
-    response.send('nigeria.html');
+    response.sendfile('static/Models/Nigeria.html');
+});
+app.get('/mali', function(request, response){
+    response.sendfile('static/Models/Mali.html');
 });
 app.get('/somalia', function(request, response){
-    response.send('somalia.html');
+    response.sendfile('static/Models/Somalia.html');
 });
-app.get('/southafrica', function(request, response){
-    response.send('southafrica.html');
+app.get('/south%20africa', function(request, response){
+    response.sendfile('static/Models/South_Africa.html');
 });
-<<<<<<< HEAD
-app.get('/start', function(request, response){
-    response.sendFile(path.join(__dirname + '/Erdem_1.html'));
+app.get('/sri%20lanka', function(request, response){
+    response.sendfile('static/Models/Sri_Lanka.html');
 });
-app.get('/netid', function(request, response){
-    response.send('what do you mean');
-=======
-app.get('/srilanka', function(request, response){
-    response.send('Models/Sri Lanka.html');
->>>>>>> 8bed23befdefef2719ebb79fdfa097f22a9b5fad
+app.get('/algeria', function(request, response){
+    response.sendfiles('static/Models/Algeria.html');
+});
+app.get('/chad', function(request, response){
+    response.sendfile('static/Models/Chad.html');
 });
 app.get('/colombia', function(request, response){
     response.sendFile(path.join(__dirname + '/reports' + '/colombia.html'));
