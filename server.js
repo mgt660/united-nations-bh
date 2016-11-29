@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 app.use(express.static('static'))
 
 app.get('/', function(request, response){
-    response.sendfile('indexerdem.html');
+    response.sendfile('index.html');
 });
 // Next few lines are obsolete
 app.get('/algeria', function(request, response){
@@ -26,7 +26,7 @@ app.get('/indonesia', function(request, response){
     response.sendfile('static/Models/Indonesia.html');
 });
 app.get('/nigeria', function(request, response){
-    response.sendfile('static/Models/Nigeria.html');
+    response.sendfile('static/Modles/Nigeria_OSC.html');
 });
 app.get('/mali', function(request, response){
     response.sendfile('static/Models/Mali.html');
@@ -45,12 +45,6 @@ app.get('/algeria', function(request, response){
 });
 app.get('/chad', function(request, response){
     response.sendfile('static/Models/Chad.html');
-});
-app.get('/colombia', function(request, response){
-    response.sendFile(path.join(__dirname + '/reports' + '/colombia.html'));
-});
-app.get('/indonesia', function(request, response){
-    response.sendFile(path.join(__dirname + '/reports' + '/indonesia.html'));
 });
 app.listen(process.env.PORT || 4000);
 
