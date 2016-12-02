@@ -1,12 +1,35 @@
-
-
+header {
+  text-align: center;
+  background: url("https://cbsnewyork.files.wordpress.com/2015/09/un3.jpg");
+  background-size: cover;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;  
+}
+img {
+  margin: 10px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: black;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
 t1 {
-    position: absolute;
-    top: 0px;
-    left: 10px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
 }
 
-t2{
+t2 {
   display: block;
   text-align: center;
   padding-left: 10px;
