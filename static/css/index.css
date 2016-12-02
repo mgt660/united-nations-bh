@@ -8,20 +8,19 @@ h1 {
   font-size: 50px;
 }
 h2 {
-  font-size: 35px;  
+  font-size: 40px;  
 }
 img {
   margin: 10px 0px 0px 0px;
   border: 7px solid white;
   border-radius: 20px;
 }
-ul {
+.header {
   padding: 10px;
   background: black;
 }
-li {
+.header li {
   display: inline;
-  padding: 0px 10px 0px 10px;
 }
 t1 {
   position: absolute;
@@ -49,7 +48,6 @@ ul {
     overflow: hidden;
     background-color: white;
 }
-
 li {
     float: left;
     display: table;
@@ -57,18 +55,10 @@ li {
     padding-left: 30px;
     margin: 1em 0;
 }
-
 li:hover{
   color: white;  
   background-color: rgba(173,216,230, 1);
 }
-
-.bigFont li{
-    font-size:20px;
-  font-weight: bold;
-  padding-top: 80px;
-}
-
 body {
   text-align: center;
   background: white;
