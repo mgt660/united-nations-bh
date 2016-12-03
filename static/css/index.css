@@ -11,13 +11,14 @@ h2 {
   font-size: 40px;  
 }
 img {
-  margin: 10px 0px 0px 20px;
+  margin: 10px 0px 20px 0px;
   border: 7px solid white;
   border-radius: 20px;
 }
 .header {
   text-align: center;
   background: black;
+  color: white;
 }
 .header li {
   display: inline;
