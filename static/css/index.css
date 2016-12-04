@@ -19,6 +19,7 @@ img {
   text-align: center;
   background: black;
   color: white;
+  font-size: 25px;
 }
 .header li {
   display: inline;
