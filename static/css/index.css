@@ -82,6 +82,7 @@ a {
   display: inline-block;
   margin-bottom: 8px;
   width: calc(50% - 4px);
+  color: white;
 }
 
 @media screen and (min-width: 50em) {
