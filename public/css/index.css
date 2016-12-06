@@ -10,9 +10,10 @@ img {
 
 h1 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 28px;
+	font-size: 24px;
 	color: #fff;
-	text-indent: 10px;
+	text-indent: 25px;
+	padding: 0px 0px 0px 0px;
 
 }
 
@@ -20,17 +21,18 @@ h2 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	color: #fff;
-	text-indent: 10px;
+	padding: 0px 480px 5px 25px;
+	text-align: left;
 }
 
 #t1 {
 	width: 100%;
 	position: fixed;
-	background-color: #364867;
+	background-image: url("../images/background.png");
 	left: 0px;
 	top: 0px;
 	z-index: 4;
-	padding: 10px 5px 5px 0px;
+	padding: 5px 5px 5px 5px;
 }
 
 	
@@ -39,7 +41,7 @@ h2 {
 	width: 200px;
 	position: fixed;
 	z-index:1;
-	top: 25px;
+	top: 30px;
 	left:0;
 	overflow-x: hidden;
 	padding-top: 120px;
@@ -69,8 +71,8 @@ h2 {
 .desc {
 	position: absolute;
 	z-index: 2;
-	left: 260px;
-	top: 30px;
+	left: 300px;
+	top: 60px;
 	margin: 70px;
 }
 
