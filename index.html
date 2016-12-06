@@ -1,78 +1,58 @@
 <html>
     <head>
-        <title> </title>
-        <link rel="stylesheet" href="/css/index.css" type="text/css" />
-    </head>
-    <body>
-    <header>
-      <h1>Boko Haram: Defining a Path to Reintegration</h1>
-      <h2>A Research Collaboration</h2>
-      <img src="/header.jpg" width="60%">
-      <ul class="header">
-          <li><a href="/Models/Executive_Summary.html">Executive Summmary</a></li>
-          <li><a href="/ES/map.html">Data Analysis</a></li>
-          <li><a href="/Models/Lake_Chad_Basin_Food_Insecurity.html">Food Insecurity</a></li>
-          <li><a href="/Models/Lake_Chad_Basin_Climate_Change.html">Climate Change</a></li>
-      </ul>
+        <title>Boko Haram: Defining a Path to Reintegration</title>
+         <link rel="stylesheet" href="css/index.css" type="text/css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>  
+   <header>
+   <div id="t1">
+   <h1>Boko Haram: Defining a Path to Reintegration</h1>
+   </div>
+     <div id="nav" class="sidenav">
+      <a href="#" id="home">Home</a>
+      <a href="#" id="about">About</a>
+        <a href="#" id="exec">Executive Summmary</a>
+        <a href="#" id="analysis">Data Analysis</a>
+        <a href="#" id="model">Model</a>
+      <div id="collapse1" class="collapse">
+        <div class="col1"><a href="#">Food Insecurity</a></div>
+        <div class="col2"><a href="#">Climate Change</a></div>
+      </div>
+      <script>
+	  $('.collapse').hide();
+$('#model').click(function() {
+    $('#collapse1').slideToggle();
+});
+
+</script>
     </header>
-      <ul class="countries">
-        
+     
+    <body>
+     <div id="des" class="desc">
+     <img src="images/header.jpg" style="width:70%">
+     </div>
+     
+    <div id="figures" class="contentnav">
+    <ul class="countries">
         <li>
           <figure>
-            <div>
-
-          <a href="/Models/Algeria.html">
-        <img src=http://www.rankflags.com/wp-content/uploads/2015/01/Flag-Map-Of-Algeria.png 
-             style="width:150px;height:150px;border:0;">
-          </a>
-              </div>
+            <div><a href="#" id="alg"><img src="images/algeria.png" style="width:60px;height:60px;border:0;"></a></div>
             <figcaption>ALGERIA</figcaption>
           </figure>
         </li>
-        <!--
+       
         <li>
           <figure>
-            <div>
-          <a href="/Models/Lake_Chad_Basin_Food_Insecurity.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag-map_of_Chad.svg/1000px-Flag-map_of_Chad.svg.png 
-             style="width:150px;height:150px;border:0;">
-          </a>
-              </div>
-            <figcaption>CHAD BASIN: Food Insecurity</figcaption>
-          </figure>
-        </li>
-        
-        <li>
-          <figure>
-            <div>
-          <a href="/Models/Lake_Chad_Basin_Climate_Change.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag-map_of_Chad.svg/1000px-Flag-map_of_Chad.svg.png 
-             style="width:150px;height:150px;border:0;">
-          </a>
-              </div>
-            <figcaption>CHAD BASIN: Climate Change</figcaption>
-          </figure>
-        </li>        
-        -->
-        <li>
-          <figure>
-            <div>
-          <a href="/Models/Colombia.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag-map_of_Colombia.svg/880px-Flag-map_of_Colombia.svg.png 
-             style="width:150px;height:150px;border:0;">
-          </a>
-              </div>
+          <div><a href="#" id="col"><img src="images/colombia.png" style="width:60px;height:60px;border:0;"></a>
+             </div>
             <figcaption>COLOMBIA</figcaption>
           </figure>
         </li>
         
-        <li>
+         <li>
           <figure>
-            <div>
-          <a href="/Models/Indonesia.html">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Greater_Indonesia_flag_map.svg/530px-Greater_Indonesia_flag_map.svg.png" 
-             style="width:300px;height:150px;border:0;">
-          </a>
+            <div><a href="#" id="ind"><img src="images/indonesia.png"
+             style="width:120px;height:60px;border:0;"></a>
               </div>
             <figcaption>INDONESIA</figcaption>
           </figure>
@@ -80,23 +60,16 @@
         
         <li>
           <figure>
-            <div>
-          <a href="/Models/Mali.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Flag-map_of_Mali.svg/2000px-Flag-map_of_Mali.svg.png
-             style="width:150px;height:150px;border:0;">
-          </a>
-            </div>
+            <div><a href="#" id="mal"><img src="images/mali.png"
+             style="width:60px;height:60px;border:0;"></a>
+              </div>
             <figcaption>MALI</figcaption>
           </figure>
         </li>
         
           <li>
           <figure>
-            <div>
-          <a href="/Models/Nigeria_OSC.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag-map_of_Nigeria.svg/1279px-Flag-map_of_Nigeria.svg.png
-             style="width:150px;height:150px;border:0;">
-          </a>
+            <div><a href="#" id="nig"><img src="images/nigeria.png" style="width:80px;height:60px;border:0;"></a>
             </div>
             <figcaption>NIGERIA</figcaption>
           </figure>
@@ -104,11 +77,7 @@
         
         <li>
           <figure>
-            <div>
-          <a href="/Models/Somalia.html">
-        <img src=https://openclipart.org/image/2400px/svg_to_png/256382/Somalia-Flag-Map.png 
-             style="width:75px;height:150px;border:0;">
-          </a>
+            <div><a href="#" id="som"><img src="images/somalia.png" style="width:40px;height:60px;border:0;"></a>
             </div>
             <figcaption>SOMALIA</figcaption>
           </figure>
@@ -116,28 +85,116 @@
         
         <li>
           <figure>
-            <div>
-          <a href="/Models/South_Africa.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Flag-map_of_South_Africa.svg/2000px-Flag-map_of_South_Africa.svg.png 
-             style="width:150px;height:150px;border:0;">
-          </a>
+            <div><a href="#" id="sou"><img src="images/southafrica.png" style="width:60px;height:60px;border:0;"></a>
             </div>
-            <figcaption>SOUTH  AFRICA</figcaption>
+            <figcaption>SOUTH AFRICA</figcaption>
           </figure>
         </li>
         
         <li>
           <figure>
-          <a href="/Models/Sri_Lanka.html">
-        <img src=https://upload.wikimedia.org/wikipedia/commons/7/7d/Flag-map-of-sri-lanka.png 
-             style="width:100px;height:150px;border:0;">
-          </a>
+          <div><a href="#" id="sri"><img src="images/srilanka.png" style="width:40px;height:60px;border:0;"></a>
+          </div>
             <figcaption>SRI LANKA</figcaption>
           </figure>
         </li>
         
-      </ul>
-  </div>
-      
+</ul>
+</div>
+<div class="documents">
+     <div id="docs"></div>
+     <div id="docs1"></div>
+     <div id="docs2"></div>
+     <div id="refs"></div>
+</div> 
+
+ <script type="text/javascript">
+ 
+  $( "#home" ).click( function() {
+    window.location = "index.html";
+});
+
+ $( "#about" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "about.html" );
+});
+
+ $( "#exec" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/executive.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+
+$( "#analysis" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "es/map.html" );
+});
+
+$( "#alg" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Algeria.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#col" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Colombia.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#ind" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Indonesia.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#mal" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Mali.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#nig" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/nigeria-one.html" );
+	 $( "#docs1" ).load( "reports/nigeria-two.html" );
+	 $( "#docs2" ).load( "reports/nigeria-three.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#som" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Somalia.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#sou" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/South-africa.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+$( "#sri" ).click( function(e) {
+    e.preventDefault();
+	$( "#figures").hide()
+	$( "#des").hide()
+    $( "#docs" ).load( "reports/Sri-lanka.html" );
+	$( "#refs" ).load( "reports/reference.html" );
+});
+</script>
+
     </body>
 </html>
