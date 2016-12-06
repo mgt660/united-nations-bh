@@ -1,0 +1,28 @@
+{
+  "name": "search-un",
+  "version": "1.0.0",
+  "description": "Search-UN",
+  "main": "index.js",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "node.js": "^0.0.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgt660/united-nations-bh.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "shuhengli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgt660/united-nations-bh/issues"
+  },
+  "homepage": "https://github.com/mgt660/united-nations-bh#readme"
+}
