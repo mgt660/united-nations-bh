@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-/global $*/
-
   $( "#home" ).click( function() {
     window.location = "index.html";
 });
