@@ -43,6 +43,6 @@ var server = http.createServer(function(request, response) {
   serverWorking(response, absPath);
 });
 
-http.listen(process.env.PORT || 3000, function(){
-  console.log('listening on', http.address().port);
+server.listen(process.env.PORT || 3000, function(){
+  console.log('listening on', process.env.port);
 });
