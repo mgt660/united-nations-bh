@@ -3,14 +3,14 @@ div {
 }
 
 img {
-  margin: 10px 0px 20px 0px;
+  margin: 10px 0px 30px 0px;
   border: 7px solid white;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 h1 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 36px;
+	font-size: 28px;
 	color: #fff;
 	text-indent: 10px;
 
@@ -39,10 +39,10 @@ h2 {
 	width: 200px;
 	position: fixed;
 	z-index:1;
-	top: 30px;
+	top: 25px;
 	left:0;
 	overflow-x: hidden;
-	padding-top: 60px;
+	padding-top: 120px;
 }
 
 .sidenav a {
@@ -70,6 +70,7 @@ h2 {
 	position: absolute;
 	z-index: 2;
 	left: 260px;
+	top: 30px;
 	margin: 70px;
 }
 
@@ -84,7 +85,7 @@ h2 {
 .documents {
 	position:absolute;
 	z-index: 3;
-	top: 100px;
+	top: 150px;
 	left: 300px;
 	right: 100px;
 }
@@ -92,7 +93,7 @@ h2 {
 .countries {
     display: block;
     list-style-type: none;
-    padding: 10px 10px;
+    padding: 40px 10px;
     overflow: hidden;
 }
 
