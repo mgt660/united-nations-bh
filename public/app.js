@@ -8,6 +8,7 @@ $(document).ready(function() {
     e.preventDefault();
 	$( "#figures").hide();
 	$( "#des").hide();
+	$( "#refs").hide();
     $( "#docs" ).load( "about.html" );
 });
 
