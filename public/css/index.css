@@ -10,12 +10,18 @@ img {
 
 h1 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 36px;
 	color: #fff;
 	text-indent: 10px;
 
 }
 
+h2 {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #fff;
+	text-indent: 10px;
+}
 
 #t1 {
 	width: 100%;
