@@ -10,7 +10,7 @@ img {
 
 h1 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 40px;
 	color: #fff;
 	text-indent: 25px;
 	padding: 0px 0px 0px 0px;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	color: #fff;
 	padding: 0px 480px 5px 25px;
 	text-align: left;
@@ -38,10 +38,10 @@ h2 {
 	
 .sidenav {
 	height:100%;
-	width: 200px;
+	width: 230px;
 	position: fixed;
 	z-index:1;
-	top: 30px;
+	top: 70px;
 	left:0;
 	overflow-x: hidden;
 	padding-top: 120px;
@@ -50,7 +50,7 @@ h2 {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 24px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -71,8 +71,8 @@ h2 {
 .desc {
 	position: absolute;
 	z-index: 2;
-	left: 300px;
-	top: 60px;
+	left: 200px;
+	top: 110px;
 	margin: 70px;
 }
 
@@ -87,7 +87,7 @@ h2 {
 .documents {
 	position:absolute;
 	z-index: 3;
-	top: 150px;
+	top: 200px;
 	left: 300px;
 	right: 100px;
 }
@@ -95,7 +95,7 @@ h2 {
 .countries {
     display: block;
     list-style-type: none;
-    padding: 40px 10px;
+    padding: 120px 10px;
     overflow: hidden;
 }
 
