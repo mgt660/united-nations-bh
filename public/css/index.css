@@ -10,7 +10,7 @@ img {
 
 h1 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 40px;
+	font-size: 36px;
 	color: #fff;
 	text-indent: 25px;
 	padding: 0px 0px 0px 0px;
@@ -19,13 +19,14 @@ h1 {
 
 h2 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 20px;
 	color: #fff;
 	padding: 0px 480px 5px 25px;
-	text-align: left;
+	
 }
 
 .models {
+	width:100%;
 	top: 100px;
 	color: #013562;
 	margin: 0px 0px 0px 0px;
