@@ -24,6 +24,7 @@ $( "#analysis" ).click( function(e) {
     e.preventDefault();
 	$( "#figures").hide();
 	$( "#des").hide();
+	$( "#refs").hide();
     $( "#docs" ).load( "es/map.html" );
 });
 
@@ -34,6 +35,7 @@ $( "#alg" ).click( function(e) {
     $( "#docs" ).load( "reports/algeria.html" );
 	$( "#refs" ).load( "reports/reference.html" );
 });
+
 $( "#col" ).click( function(e) {
     e.preventDefault();
 	$( "#figures").hide();
@@ -41,6 +43,7 @@ $( "#col" ).click( function(e) {
     $( "#docs" ).load( "reports/colombia.html" );
 	$( "#refs" ).load( "reports/reference.html" );
 });
+
 $( "#ind" ).click( function(e) {
     e.preventDefault();
 	$( "#figures").hide();
@@ -113,13 +116,7 @@ $( "#alg2" ).click( function(e) {
     $( "#docs" ).load( "reports/algeria.html" );
 	$( "#refs" ).load( "reports/reference.html" );
 });
-$( "#col2" ).click( function(e) {
-    e.preventDefault();
-	$( "#figures").hide();
-	$( "#des").hide();
-    $( "#docs" ).load( "reports/colombia.html" );
-	$( "#refs" ).load( "reports/reference.html" );
-});
+
 $( "#ind2" ).click( function(e) {
     e.preventDefault();
 	$( "#figures").hide();
