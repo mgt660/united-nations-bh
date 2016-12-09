@@ -3,7 +3,7 @@ div {
 }
 
 img {
-  margin: 10px 0px 30px 0px;
+  margin: 10px 0px 10px 0px;
   border: 5px solid white;
   border-radius: 30px;
 }
@@ -21,7 +21,7 @@ h2 {
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 130%;
 	color: #fff;
-	padding: 0px 480px 5px 25px;
+	padding: 0px 400px 5px 25px;
 	
 }
 
@@ -86,8 +86,8 @@ h2 {
 	position: fixed;
 	z-index: 2;
 	left: 200px;
-	top: 100px;
-	margin: 40px;
+	top: 110px;
+	margin: 30px;
 }
 
 .contentnav {
