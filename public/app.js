@@ -36,7 +36,7 @@ $( "#alg" ).click( function(e) {
 	$( "#refs" ).load( "reports/reference.html" );
 });
 
-$( "#col3" ).click( function(e) {
+$( "#col" ).click( function(e) {
     e.preventDefault();
 	$( "#figures").hide();
 	$( "#des").hide();
