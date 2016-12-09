@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+$('.collapse').hide();
+      $('#model').click(function() {
+        $('#collapse1').slideToggle();
+        });
+		
   $( "#home" ).click( function() {
     window.location = "index.html";
 });
